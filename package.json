@@ -1,0 +1,30 @@
+{
+  "name": "remix-router",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@react-router/node": "7.18.4",
+    "@react-router/serve": "7.18.4",
+    "isbot": "5.2.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-router": "7.18.4"
+  },
+  "devDependencies": {
+    "@react-router/dev": "7.18.4",
+    "@types/node": "24.10.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.8.3",
+    "vite": "6.4.4"
+  }
+}
