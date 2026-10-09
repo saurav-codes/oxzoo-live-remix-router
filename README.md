@@ -1,6 +1,10 @@
 # remix-router
 
-> **Role in the zoo:** project `remix-router` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with ox on server s2 at https://remix-router.s2.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
+Deployed with [ox](https://deploywithox.com): deploy a repo to your own server with one command, no Docker. [Docs](https://deploywithox.com/docs) · [Guide for this stack](https://deploywithox.com/docs/guides/react-router)
+
+**Live demo:** https://remix-router.s2.zoo.sorv.dev
+
+> **Role in the zoo:** project `remix-router` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with [ox](https://deploywithox.com) on server s2 at https://remix-router.s2.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
 
 React Router 7 in framework mode with server rendering, on s2. It proves the
 difference between a build-time variable and a run-time variable on ox:
